@@ -1,0 +1,35 @@
+{
+  "name": "webbrowser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "webpack": "webpack -w",
+    "dev": "nodemon server/server.js & webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/standalone": "^7.14.2",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "babel-standalone": "^6.26.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
